@@ -1,12 +1,13 @@
 {
   "name": "node-app",
   "description": "Nodeapp for CICD test",
-  "version": "0.0.1",
+  "main": "src/index.js",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "express": "4.17.1"
+    "express": "^4.17.1"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
   }
 }
